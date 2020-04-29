@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!-- main css -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- font awesome -->
+    <link rel="stylesheet" href="css/all.css" />
+    <title>Starter Template</title>
+    <style></style>
+  </head>
+  <body>
+    <header>
+<nav class="navbar navbar-expand-lg nav-header">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNav">
+    <span class="toggler-icon"><i class="fas fa-bars"></i></span>
+  </button>
+  <div class="collapse navbar-collapse" id="myNav">
+    <ul class="navbar-nav mx-auto text-capitalize">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Create a Memory Jar</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link " href="#">Build a family tree</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Lumhaa app</a>
+      </li>
+    </ul>
+    <a class="navbar-brand" href="#"><img src="img/" alt="">Lumhaa</a>
+    <ul class="navbar-nav mx-auto text-capitalize">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Shop</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link " href="#">Our Services</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+          aria-haspopup="true" aria-expanded="false">
+          About Lumhaa
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">A</a>
+          <a class="dropdown-item" href="#">B</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">C</a>
+        </div>
+      </li>
+      <li class="nav-item ">
+        <strong><a class="nav-link navsignuplink" href="#">Sign Up</a></strong>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Login</a>
+      </li>
+    </ul>
+  </div>
+  </div>
+</nav>
+<div class="container-fluid header-banner">
+<div class="overlay"></div>
+<video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop" class="bannervideo">
+  <source src="https://storage.googleapis.com/coverr-main/mp4/Mt_Baker.mp4" type="video/mp4">
+</video>
+<div class="row bannerContent justify-content-center align-items-center text-center">
+<h1 class="text-capitalize bannerHeading w-75">
+  Lorem Ipsum is simply dummy text
+</h1>
+</div>
+<div class="row bannerContent justify-content-center align-items-center text-center">
+  <h5 class="text-capitalize bannerSubheading w-75">
+    Lorem Ipsum is simply dummy text of the printing and typesetting
+    industry. Lorem Ipsum has been the industry's standard dummy text
+    ever since the 1500
+  </h5>
+</div>
+<div class="container bannerContent">
+  <form class="form-inline justify-content-center align-items-center text-center bannerForm">
+    <div class="form-group col-xs-12 col-sm-6 col-md-4 col-lg-2">
+      <input type ="text" name="input1" placeholder="Name your memory jar" class="bannerInput">
+    </div>
+    <div class="form-group col-xs-12 col-sm-6 col-md-4 col-lg-2">
+      <input type="email" name="input2" placeholder="Email" class="bannerInput">
+    </div>  
+    <div class="col-xs-12 col-lg-1">
+      <button type="button" class="btn btn-default bannercreate" data-toggle="modal" data-target="#exampleModalCenter">Create</button>
+    </div>
+  </form>
+</div>
+</div>  
+    </header>
+    <!-- modal container  -->
+    <div
+      class="modal fade"
+      id="exampleModalCenter"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="exampleModalCenterTitle"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header text-center">
+            <h5 class="modal-title w-100" id="exampleModalLongTitle">
+              <strong>Complete Sign Up</strong>
+            </h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="form-group">
+                <label for="modalname" class="col-form-label"
+                  ><strong>Name</strong></label
+                >
+                <input
+                  type="text"
+                  class="form-control"
+                  id="modalname"
+                  placeholder="Enter your name"
+                />
+              </div>
+              <div class="form-group">
+                <label for="modalpassword" class="col-form-label"
+                  ><strong>Password</strong></label
+                >
+                <input
+                  type="password"
+                  class="form-control"
+                  id="modalpassword"
+                  placeholder="Password"
+                />
+              </div>
+            </form>
+          </div>
+          <input
+            type="submit"
+            class="d-block text-capitalize submitBtn w-100 modalSignup"
+            value="Sign Up"
+          />
+          <div class="d-block text-capitalize modallink w-100 text-center">
+            <a href="http://">Sign up later</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <section class="feature py-5" id="feature">
+      <div class="container">
+        <div class="row">
+          <div class="col-10 mx-auto col-md-4 my-5">
+            <div class="featureimg"></div>
+            <h1 class="text-capitalize featureheading">Feature</h1>
+            <p class="my-4 text-muted w-75 featureDescription">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit,
+              aliquam voluptas beatae vitae expedita consectetur nesciunt quia
+              deserunt asperiores facere fuga dicta fugiat corrupti et omnis
+              porro at dolorum! Ad!
+            </p>
+          </div>
+          <div class="col-10 mx-auto col-md-4 my-5">
+            <div class="featureimg"></div>
+            <h1 class="text-capitalize featureheading">Feature</h1>
+            <p class="my-4 text-muted w-75 featureDescription">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit,
+              aliquam voluptas beatae vitae expedita consectetur nesciunt quia
+              deserunt asperiores facere fuga dicta fugiat corrupti et omnis
+              porro at dolorum! Ad!
+            </p>
+          </div>
+          <div class="col-10 mx-auto col-md-4 my-5">
+            <div class="featureimg"></div>
+            <h1 class="text-capitalize featureheading">Feature</h1>
+            <p class="my-4 text-muted w-75 featureDescription">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit,
+              aliquam voluptas beatae vitae expedita consectetur nesciunt quia
+              deserunt asperiores facere fuga dicta fugiat corrupti et omnis
+              porro at dolorum! Ad!
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+<!-- Browse memory begin -->
+    <section class="browseMemory" id="browseMemory">
+<div class="container-fluid">
+<div class="row justify-content-center align-items-center text-center">
+  <h1 class="text-capitalize w-75"> Browse Memory jars</h1>
+</div>
+<div class="row justify-content-center align-items-center text-center">
+<p class="text-capitalize w-75">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit,
+</p>
+</div>
+<div class="row justify-content-center align-items-center text-center nameOfJar">
+<div class="col-10 mx-auto col-md-3">
+<h3>Name of jar</h3>
+<button class="memoryButton">View</button>
+</div>
+<div class="col-10 mx-auto col-md-3">
+  <h3>Name of jar</h3>
+<button class="memoryButton">View</button>
+</div>
+<div class="col-10 mx-auto col-md-3">
+  <h3>Name of jar</h3>
+  <button class="memoryButton">View</button>
+</div>
+<div class="col-10 mx-auto col-md-3">
+  <h3>Name of jar</h3>
+<button class="memoryButton">View</button>
+</div>
+</div>
+</div>
+    </section>
+<!-- Browse memory end  -->
+
+
+<!-- footer Begin -->
+
+<footer class="footer">
+<div class="container-fluid footerContentBox">
+  <div class="row justify-content-center align-items-center text-center">
+<h1>Lorem ipsum dolor sit</h1>
+  </div>
+<div class="row justify-content-center align-items-center text-center">
+  <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit,</h5>
+</div>
+<div class="row justify-content-center align-items-center text-center">
+  <button class="footerButton">Create a memory jaar</button>
+</div>
+</div>
+</footer>
+
+
+
+<!-- footer end -->
+
+
+
+
+    <!-- jquery -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <!-- bootstrap js -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <!-- script js -->
+    <script src="js/app.js"></script>
+  </body>
+</html>

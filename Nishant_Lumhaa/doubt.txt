@@ -1,0 +1,15 @@
+from where the data is coming.
+am i going to be provided with graphical content (like the images and video).
+Download on the app store or google play store (only design or do i need to integrate).
+Do i need integrate login or signup
+Match users with best Lumhaa product (which page this navigates to)
+Hightlight most attractive feature (is it going to be Dynamic or static).
+in family tree Able to zoom in and out and drag and drop (didn't understand clearly)
+
+view memory jar for event in another tab(what part of it will open in another tab)
+toggle between event memory(didn't get the clear picture .(it may be simple but i am not getting the clear picture what i need to toggle dynamically))
+calender ui : simple builtin calendar or personalised calendar.
+able to add family member.(where the data of family member will reflect).
+adding tree dynamically need to research . (i need to research (or do u have sample website where i can look it though not an issue i can develope)).
+
+

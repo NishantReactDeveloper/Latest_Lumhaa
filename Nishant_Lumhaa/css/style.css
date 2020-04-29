@@ -1,0 +1,216 @@
+/* Header */
+header {
+  position: relative;
+  background-color: black;
+  min-height: 32rem;
+  width: 100%;
+  overflow: hidden;
+}
+
+/* Navbar */
+header .navbar {
+  z-index: 10;
+  background-color: #ffffff;
+}
+
+.navsignuplink:hover {
+  color: #ffffff !important;
+}
+
+.navbar-toggler {
+  outline: none !important;
+}
+.toggler-icon {
+  font-size: 2.5rem;
+  color: var(--mainPink);
+}
+.nav-link {
+  color: #000;
+  font-size: 16px;
+  transition: all 0.5s ease-in-out;
+}
+.nav-link:hover {
+  color: blue;
+}
+
+.navbar-brand {
+  color: #000;
+  font-size: 18px;
+  font-weight: bold;
+}
+.navsignuplink {
+  color: #ffffff;
+  background-color: #000;
+}
+
+/* Navbar end */
+
+/* Banner */
+
+.bannervideo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 0;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: 0.5;
+  z-index: 1;
+}
+.bannerContent {
+  position: relative;
+  z-index: 10;
+}
+.bannerForm {
+  margin-top: 42px;
+}
+.bannerHeading {
+  color: #ffffff;
+  font-size: 48px;
+  font-family: "ABeeZee", sans-serif;
+  margin-top: 44.6px;
+}
+.bannerSubheading {
+  color: #ffffff;
+  font-size: 24px;
+  font-family: "ABeeZee", sans-serif;
+  margin-top: 37.2px;
+}
+.bannercreate {
+  font-size: 24px;
+  color: #ffffff;
+  background-color: #000;
+  font-family: "Open Sans", sans-serif;
+  border: none;
+}
+
+.bannerInput {
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #ffffff;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #ffffff;
+  border-radius: 0px;
+}
+
+::placeholder {
+  color: #ffffff;
+  opacity: 1; /* Firefox */
+}
+
+/* Banner End */
+
+/* Modal */
+.modalSignup {
+  background-color: #000;
+  color: #ffffff;
+  line-height: 40px;
+  border: none;
+}
+
+.modallink {
+  margin-top: 14px;
+  margin-bottom: 14px;
+}
+
+.modal-header {
+  text-align: center;
+}
+/* Modal end */
+
+/* header end */
+
+/* feature */
+.featureimg {
+  width: 40px;
+  height: 40px;
+  background-color: #000;
+}
+
+.featureheading {
+  font-family: "Zilla Slab", serif;
+}
+.featureDescription {
+  font-family: "Roboto", sans-serif;
+}
+
+/* feature end */
+
+/* Browse memory jar */
+
+.memoryButton {
+  font-size: 24px;
+  color: #ffffff;
+  background-color: #000;
+  font-family: "Open Sans", sans-serif;
+  border: none;
+}
+.nameOfJar {
+  background-color: #f2f2f2;
+  min-height: 15rem;
+}
+
+/* browse memory jar */
+
+/* footer */
+
+.footer {
+  background-color: #000000;
+  color: #ffffff;
+  margin-top: 40px;
+  min-height: 13rem;
+}
+.footerContentBox {
+  padding-top: 40px;
+}
+
+.footerButton {
+  font-size: 24px;
+  color: #cccccc;
+  background-color: #8c8c8c;
+  font-family: "Open Sans", sans-serif;
+  border: none;
+}
+
+/* footer end */
+
+/* Meadia */
+
+@media only screen and (max-width: 1000px) {
+  .navsignuplink {
+    color: #000;
+    background-color: #ffffff;
+  }
+  .navsignuplink:hover {
+    color: #000000 !important;
+  }
+  .bannercreate {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .navsignuplink {
+    color: #000;
+    background-color: #ffffff;
+  }
+  .navsignuplink:hover {
+    color: #000000 !important;
+  }
+  margin-top: 10px;
+}
